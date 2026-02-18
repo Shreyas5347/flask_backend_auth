@@ -1,1 +1,2 @@
-db_name="test.db"
+db_name="test.db"   
+SECRET_KEY="dsafHDUBirusiojidkejfhuadfn#!sdf"
