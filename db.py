@@ -34,6 +34,6 @@ def get_user(username):
     conn = db_connection()
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM users WHERE username = ?", (username,))
-    user = cursor.fetchone()
+    users = cursor.fetchone()
     conn.close()
-    return user
+    return users
